@@ -4,8 +4,8 @@
     import = "data.JDBC"%>
 <%
 	JDBC db = new JDBC();
-	String[] arr1 = {"GilDong22", "2222"};
-	String[] arr2 = {"ChunHyang13", "1313"};
+	String[] arr1 = {"mamama", "111"};
+	String[] arr2 = {"mmnaa", "123"};
 	db.sqlExecute("insert", "insert into test values(" + 0 + ",?,?)", arr1);
 	db.sqlExecute("insert", "insert into test values(" + 1 + ",?,?)", arr2);
 %>
